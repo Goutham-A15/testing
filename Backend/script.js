@@ -1,5 +1,7 @@
 const btn = document.getElementById('nigga');
+console.log('script')
 
-btn.addEventListener('onclick', ()=> {
+btn.addEventListener('click', ()=> {
+    console.log('Clicked')
     btn.innerText = 'Uzair Nigga';
 })
